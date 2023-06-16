@@ -1,0 +1,80 @@
+.sidebar-main{
+    width:35%;
+}
+.sidebar{
+    width:70%;
+    height: 100%;
+    background-color: rgb(49, 84, 137);
+    padding:5%;
+    color:white
+}
+.sidebarAdmin{
+    text-align: center;
+    padding:5% 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.adminPanel{
+    padding:2% 6%;
+}
+
+.sidebarInput{
+    width:100%;
+    /* padding:2%; */
+}
+
+.sidebarTag{
+    width:95%;
+    padding:2%;
+    border-radius: 5px;
+    outline: none;
+    border:none;
+}
+
+.sidebarIdvl{
+    padding:5% 7%;
+    display:flex;
+    /* justify-content: ; */
+    align-items: center;
+    font-size:15px
+}
+.sidebarContent{
+    padding:0 5%;
+}
+.sidebarPerson{
+    padding:10% 2%;
+    display:flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.sidebarUserContent{
+    /* display:flex; */
+    /* align-items: baseline; */
+    font-size:14px;
+    padding:0 5% 3% 5%;
+}
+.sidebarName2{
+    font-size:10px;
+}
+.sidebarUser{
+    width:50px;
+    height:50px;
+    font-size: 40px;
+    border-radius: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(124, 124, 124);
+    background-color: rgb(210, 207, 207);
+}
+
+@media screen and (max-width:800px) {
+    .sidebar-main{
+        position: absolute;
+        z-index:97;
+        width:90%;
+        height: 100vh;
+    }
+    
+}

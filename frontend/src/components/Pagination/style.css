@@ -1,0 +1,24 @@
+.idvl-page{
+    color:white;
+    padding:2%;
+}
+.text-btn{
+    width:100%;
+    padding:30% 0%;
+    border:none;
+    background-color: blue;
+    color:white;
+    border-radius: 10px;
+    font-size:15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.text-btn-click{
+    border:2px solid blue;
+    width:100%;
+    padding:30% 0%;
+    background-color: white;
+    color:blue;
+    border-radius: 10px;
+    font-size:15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;   
+}
